@@ -1,0 +1,106 @@
+nav a {
+    color: black;
+    text-decoration: none;
+    background-color: rgba(218, 112, 214, 0.705);
+    color: gray;
+    padding: 0;
+    text-decoration-style: solid;
+    text-align: center;
+}
+
+nav li {
+    margin-right: 20px;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: yellow;
+    opacity: 0.8;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    color: black;
+}
+
+body {
+    color: white;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+header {
+    color: yellow;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    margin: 20px;
+    padding: 1opx;
+    background-color: gray;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    text-decoration: none;
+    color: yellow;
+}
+
+.navbar:hover {
+    background-color: gold;
+}
+
+.navbar-container {
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    background-color: hotpink;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+.right-border {
+    color: black;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
